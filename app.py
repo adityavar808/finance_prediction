@@ -37,6 +37,7 @@ if st.button('Predict'):
     
     financial = model.predict(input_data)
     print(financial)
+    st.ballons()
     st.write("Financial Portfolio Return :",financial)
     st.success("Financial Portfolio Return Prediction Successfully !")
     

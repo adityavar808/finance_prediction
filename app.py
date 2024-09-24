@@ -5,7 +5,7 @@ import joblib
 import time
 
 # Load the model
-model = joblib.load('../linear_regression_model_financial.pkl')
+model = joblib.load('linear_regression_model_financial.pkl')
 
 # App Title
 st.image("2.jpg",width=200,use_column_width=20)
